@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
+import '@repo/ui/globalcss'
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
           <li>
             Get started by editing <code>app/page.tsx</code>
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li className="bg-red-600">Save and see your changes instantly.</li>
         </ol>
 
         <div className={styles.ctas}>

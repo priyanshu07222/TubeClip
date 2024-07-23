@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@repo/ui/button";
+import "@repo/ui/globalcss"
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>
+          <li className="bg-cyan-500">
             Get started by editing <code>app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
